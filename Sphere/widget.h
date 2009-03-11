@@ -13,10 +13,15 @@ public:
 private:
 	virtual void drawItem(QPainter * painter, QPair<QPoint, double> param);
 	QPair<QPoint, double> pointFromAngle(QPair<double, double> angle) const;
+	void SetXYZRotationMatrix(const double angle_x,
+							  const double angle_y,
+							  const double angle_z);
 
 	int radius;
 	int myID;
+	double rotXYZ_[3][3];
 	QPoint center;
+	QPoint mouseAt;
 
 	QPair<double, double> angle; //radians
 

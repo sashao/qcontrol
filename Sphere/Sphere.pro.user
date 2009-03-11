@@ -6,11 +6,15 @@
  </data>
  <data>
   <variable>RunConfiguration0-ProFile</variable>
-  <value type="QString" >/media/sda3/Prefs/Projects/Sphere/Sphere.pro</value>
+  <value type="QString" >/media/sda3/Prefs/Projects/Trans/qcontrol/Sphere/Sphere.pro</value>
  </data>
  <data>
   <variable>RunConfiguration0-RunConfiguration.name</variable>
   <value type="QString" >Sphere</value>
+ </data>
+ <data>
+  <variable>RunConfiguration0-UseTerminal</variable>
+  <value type="bool" >true</value>
  </data>
  <data>
   <variable>RunConfiguration0-UserSetName</variable>
@@ -33,7 +37,8 @@
   <valuemap type="QVariantMap" >
    <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >Debug</value>
    <value key="QtVersionId" type="int" >0</value>
-   <value key="buildDirectory" type="QString" >/media/sda3/Prefs/Projects/Sphere</value>
+   <value key="addQDumper" type="" ></value>
+   <value key="buildDirectory" type="QString" >/media/sda3/Prefs/Projects/Trans/qcontrol/Sphere</value>
   </valuemap>
  </data>
  <data>
@@ -41,6 +46,7 @@
   <valuemap type="QVariantMap" >
    <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >Release</value>
    <value key="QtVersionId" type="int" >0</value>
+   <value key="addQDumper" type="" ></value>
   </valuemap>
  </data>
  <data>
@@ -49,9 +55,11 @@
    <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >Debug</value>
    <valuelist key="abstractProcess.Environment" type="QVariantList" >
     <value type="QString" >CLASSPATH=.</value>
+    <value type="QString" >COLORTERM=gnome-terminal</value>
     <value type="QString" >CONFIG_PROTECT_MASK=/etc/gentoo-release /etc/env.d/java/ /etc/udev/rules.d /etc/fonts/fonts.conf /etc/gconf /etc/terminfo /etc/ca-certificates.conf /etc/revdep-rebuild</value>
-    <value type="QString" >CVS_RSH=ssh</value>
-    <value type="QString" >DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-hbXJCOkHvV,guid=965f147109da3e503fe2ae4949b01645</value>
+    <value type="QString" >CVSROOT=:ext:oomel@cvs.ics.com:/home/cvs/root</value>
+    <value type="QString" >CVS_RSH=/home/olek/.ssh/script</value>
+    <value type="QString" >DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-Zl8T5acgV2,guid=d94f2d56c7d6d46be5d4c67e49b80a40</value>
     <value type="QString" >DESKTOP_SESSION=gnome</value>
     <value type="QString" >DESKTOP_STARTUP_ID=</value>
     <value type="QString" >DISPLAY=:0.0</value>
@@ -62,44 +70,52 @@
     <value type="QString" >GDM_LANG=uk_UA.UTF-8</value>
     <value type="QString" >GDM_XSERVER_LOCATION=local</value>
     <value type="QString" >GNOME_DESKTOP_SESSION_ID=Default</value>
-    <value type="QString" >GNOME_KEYRING_SOCKET=/tmp/keyring-xD7PkW/socket</value>
-    <value type="QString" >GPG_AGENT_INFO=/tmp/seahorse-q7TWUj/S.gpg-agent:5921:1</value>
+    <value type="QString" >GNOME_KEYRING_SOCKET=/tmp/keyring-OfBCYD/socket</value>
+    <value type="QString" >GPG_AGENT_INFO=/tmp/seahorse-4lNuUa/S.gpg-agent:5923:1</value>
     <value type="QString" >GTK_MODULES=gnomebreakpad</value>
     <value type="QString" >GTK_RC_FILES=/etc/gtk/gtkrc:/home/olek/.gtkrc-1.2-gnome2</value>
+    <value type="QString" >HISTCONTROL=ignorespace</value>
     <value type="QString" >HOME=/home/olek</value>
     <value type="QString" >INFOPATH=/usr/share/info:/usr/share/binutils-data/x86_64-pc-linux-gnu/2.19/info:/usr/share/gcc-data/x86_64-pc-linux-gnu/4.3.2/info</value>
     <value type="QString" >JAVAC=/etc/java-config-2/current-system-vm/bin/javac</value>
     <value type="QString" >JAVA_HOME=/etc/java-config-2/current-system-vm</value>
     <value type="QString" >JDK_HOME=/etc/java-config-2/current-system-vm</value>
     <value type="QString" >LANG=uk_UA.UTF-8</value>
+    <value type="QString" >LD_LIBRARY_PATH=/home/olek/Prefs/qt-creator/lib:</value>
     <value type="QString" >LESS=-R -M --shift 5</value>
     <value type="QString" >LESSOPEN=|lesspipe.sh %s</value>
     <value type="QString" >LOGNAME=olek</value>
+    <value type="QString" >LS_COLORS=rs=0:di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=01;05;37;41:mi=01;05;37;41:su=37;41:sg=30;43:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.pdf=00;32:*.ps=00;32:*.txt=00;32:*.patch=00;32:*.diff=00;32:*.log=00;32:*.tex=00;32:*.doc=00;32:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:</value>
     <value type="QString" >MANPATH=/etc/java-config-2/current-system-vm/man:/usr/local/share/man:/usr/share/man:/usr/share/binutils-data/x86_64-pc-linux-gnu/2.19/man:/usr/share/gcc-data/x86_64-pc-linux-gnu/4.3.2/man:/etc/java-config/system-vm/man/:/usr/qt/3/doc/man</value>
+    <value type="QString" >MC_SID=6543</value>
+    <value type="QString" >MC_TMPDIR=/tmp/mc-olek</value>
     <value type="QString" >OPENGL_PROFILE=nvidia</value>
     <value type="QString" >ORBIT_SOCKETDIR=/tmp/orbit-olek</value>
     <value type="QString" >PAGER=/usr/bin/less</value>
     <value type="QString" >PATH=/usr/bin:/home/olek/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:/opt/bin:/usr/x86_64-pc-linux-gnu/gcc-bin/4.3.2:/usr/qt/3/bin:/usr/games/bin</value>
     <value type="QString" >PKG_CONFIG_PATH=/usr/qt/3/lib64/pkgconfig</value>
-    <value type="QString" >PWD=/home/olek</value>
+    <value type="QString" >PWD=/home/olek/Prefs/qt-creator/bin</value>
     <value type="QString" >QMAKESPEC=linux-g++</value>
     <value type="QString" >QTDIR=/usr</value>
-    <value type="QString" >SESSION_MANAGER=local/Gentoo-laptop:@/tmp/.ICE-unix/5891,unix/Gentoo-laptop:/tmp/.ICE-unix/5891</value>
+    <value type="QString" >SESSION_MANAGER=local/Gentoo-laptop:@/tmp/.ICE-unix/5893,unix/Gentoo-laptop:/tmp/.ICE-unix/5893</value>
     <value type="QString" >SHELL=/bin/bash</value>
-    <value type="QString" >SHLVL=1</value>
-    <value type="QString" >SSH_AGENT_PID=5911</value>
-    <value type="QString" >SSH_AUTH_SOCK=/tmp/keyring-xD7PkW/ssh</value>
+    <value type="QString" >SHLVL=3</value>
+    <value type="QString" >SSH_AGENT_PID=5913</value>
+    <value type="QString" >SSH_AUTH_SOCK=/tmp/keyring-OfBCYD/ssh</value>
+    <value type="QString" >SVN_EDITOR=/usr/bin/vim</value>
+    <value type="QString" >TERM=xterm</value>
     <value type="QString" >USER=olek</value>
     <value type="QString" >USERNAME=olek</value>
+    <value type="QString" >WINDOWID=54526030</value>
     <value type="QString" >WINDOWPATH=7</value>
     <value type="QString" >XAUTHORITY=/home/olek/.Xauthority</value>
     <value type="QString" >XDG_DATA_DIRS=/usr/local/share/:/usr/share/:/usr/share/gdm/</value>
-    <value type="QString" >XDG_SESSION_COOKIE=44c9c4dc747ee6464e4b873248ec0243-1236276804.869800-1509024489</value>
+    <value type="QString" >XDG_SESSION_COOKIE=44c9c4dc747ee6464e4b873248ec0243-1236798015.518253-1202202511</value>
     <value type="QString" >XSESSION=Xfce4</value>
-    <value type="QString" >_=/home/olek/bin/qtcreator</value>
+    <value type="QString" >_=./qtcreator.bin</value>
    </valuelist>
    <valuelist key="abstractProcess.arguments" type="QVariantList" >
-    <value type="QString" >/media/sda3/Prefs/Projects/Sphere/Sphere.pro</value>
+    <value type="QString" >/media/sda3/Prefs/Projects/Trans/qcontrol/Sphere/Sphere.pro</value>
     <value type="QString" >-spec</value>
     <value type="QString" >/usr/share/qt4/mkspecs/linux-g++-64</value>
     <value type="QString" >-r</value>
@@ -108,7 +124,7 @@
    </valuelist>
    <value key="abstractProcess.command" type="QString" >/usr/bin/qmake</value>
    <value key="abstractProcess.enabled" type="bool" >false</value>
-   <value key="abstractProcess.workingDirectory" type="QString" >/media/sda3/Prefs/Projects/Sphere</value>
+   <value key="abstractProcess.workingDirectory" type="QString" >/media/sda3/Prefs/Projects/Trans/qcontrol/Sphere</value>
    <value key="buildConfiguration" type="int" >10</value>
   </valuemap>
  </data>
@@ -118,9 +134,11 @@
    <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >Debug</value>
    <valuelist key="abstractProcess.Environment" type="QVariantList" >
     <value type="QString" >CLASSPATH=.</value>
+    <value type="QString" >COLORTERM=gnome-terminal</value>
     <value type="QString" >CONFIG_PROTECT_MASK=/etc/gentoo-release /etc/env.d/java/ /etc/udev/rules.d /etc/fonts/fonts.conf /etc/gconf /etc/terminfo /etc/ca-certificates.conf /etc/revdep-rebuild</value>
-    <value type="QString" >CVS_RSH=ssh</value>
-    <value type="QString" >DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-hbXJCOkHvV,guid=965f147109da3e503fe2ae4949b01645</value>
+    <value type="QString" >CVSROOT=:ext:oomel@cvs.ics.com:/home/cvs/root</value>
+    <value type="QString" >CVS_RSH=/home/olek/.ssh/script</value>
+    <value type="QString" >DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-Zl8T5acgV2,guid=d94f2d56c7d6d46be5d4c67e49b80a40</value>
     <value type="QString" >DESKTOP_SESSION=gnome</value>
     <value type="QString" >DESKTOP_STARTUP_ID=</value>
     <value type="QString" >DISPLAY=:0.0</value>
@@ -131,41 +149,49 @@
     <value type="QString" >GDM_LANG=uk_UA.UTF-8</value>
     <value type="QString" >GDM_XSERVER_LOCATION=local</value>
     <value type="QString" >GNOME_DESKTOP_SESSION_ID=Default</value>
-    <value type="QString" >GNOME_KEYRING_SOCKET=/tmp/keyring-xD7PkW/socket</value>
-    <value type="QString" >GPG_AGENT_INFO=/tmp/seahorse-q7TWUj/S.gpg-agent:5921:1</value>
+    <value type="QString" >GNOME_KEYRING_SOCKET=/tmp/keyring-OfBCYD/socket</value>
+    <value type="QString" >GPG_AGENT_INFO=/tmp/seahorse-4lNuUa/S.gpg-agent:5923:1</value>
     <value type="QString" >GTK_MODULES=gnomebreakpad</value>
     <value type="QString" >GTK_RC_FILES=/etc/gtk/gtkrc:/home/olek/.gtkrc-1.2-gnome2</value>
+    <value type="QString" >HISTCONTROL=ignorespace</value>
     <value type="QString" >HOME=/home/olek</value>
     <value type="QString" >INFOPATH=/usr/share/info:/usr/share/binutils-data/x86_64-pc-linux-gnu/2.19/info:/usr/share/gcc-data/x86_64-pc-linux-gnu/4.3.2/info</value>
     <value type="QString" >JAVAC=/etc/java-config-2/current-system-vm/bin/javac</value>
     <value type="QString" >JAVA_HOME=/etc/java-config-2/current-system-vm</value>
     <value type="QString" >JDK_HOME=/etc/java-config-2/current-system-vm</value>
     <value type="QString" >LANG=uk_UA.UTF-8</value>
+    <value type="QString" >LD_LIBRARY_PATH=/home/olek/Prefs/qt-creator/lib:</value>
     <value type="QString" >LESS=-R -M --shift 5</value>
     <value type="QString" >LESSOPEN=|lesspipe.sh %s</value>
     <value type="QString" >LOGNAME=olek</value>
+    <value type="QString" >LS_COLORS=rs=0:di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=01;05;37;41:mi=01;05;37;41:su=37;41:sg=30;43:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.pdf=00;32:*.ps=00;32:*.txt=00;32:*.patch=00;32:*.diff=00;32:*.log=00;32:*.tex=00;32:*.doc=00;32:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:</value>
     <value type="QString" >MANPATH=/etc/java-config-2/current-system-vm/man:/usr/local/share/man:/usr/share/man:/usr/share/binutils-data/x86_64-pc-linux-gnu/2.19/man:/usr/share/gcc-data/x86_64-pc-linux-gnu/4.3.2/man:/etc/java-config/system-vm/man/:/usr/qt/3/doc/man</value>
+    <value type="QString" >MC_SID=6543</value>
+    <value type="QString" >MC_TMPDIR=/tmp/mc-olek</value>
     <value type="QString" >OPENGL_PROFILE=nvidia</value>
     <value type="QString" >ORBIT_SOCKETDIR=/tmp/orbit-olek</value>
     <value type="QString" >PAGER=/usr/bin/less</value>
     <value type="QString" >PATH=/usr/bin:/home/olek/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:/opt/bin:/usr/x86_64-pc-linux-gnu/gcc-bin/4.3.2:/usr/qt/3/bin:/usr/games/bin</value>
     <value type="QString" >PKG_CONFIG_PATH=/usr/qt/3/lib64/pkgconfig</value>
-    <value type="QString" >PWD=/home/olek</value>
+    <value type="QString" >PWD=/home/olek/Prefs/qt-creator/bin</value>
     <value type="QString" >QMAKESPEC=linux-g++</value>
     <value type="QString" >QTDIR=/usr</value>
-    <value type="QString" >SESSION_MANAGER=local/Gentoo-laptop:@/tmp/.ICE-unix/5891,unix/Gentoo-laptop:/tmp/.ICE-unix/5891</value>
+    <value type="QString" >SESSION_MANAGER=local/Gentoo-laptop:@/tmp/.ICE-unix/5893,unix/Gentoo-laptop:/tmp/.ICE-unix/5893</value>
     <value type="QString" >SHELL=/bin/bash</value>
-    <value type="QString" >SHLVL=1</value>
-    <value type="QString" >SSH_AGENT_PID=5911</value>
-    <value type="QString" >SSH_AUTH_SOCK=/tmp/keyring-xD7PkW/ssh</value>
+    <value type="QString" >SHLVL=3</value>
+    <value type="QString" >SSH_AGENT_PID=5913</value>
+    <value type="QString" >SSH_AUTH_SOCK=/tmp/keyring-OfBCYD/ssh</value>
+    <value type="QString" >SVN_EDITOR=/usr/bin/vim</value>
+    <value type="QString" >TERM=xterm</value>
     <value type="QString" >USER=olek</value>
     <value type="QString" >USERNAME=olek</value>
+    <value type="QString" >WINDOWID=54526030</value>
     <value type="QString" >WINDOWPATH=7</value>
     <value type="QString" >XAUTHORITY=/home/olek/.Xauthority</value>
     <value type="QString" >XDG_DATA_DIRS=/usr/local/share/:/usr/share/:/usr/share/gdm/</value>
-    <value type="QString" >XDG_SESSION_COOKIE=44c9c4dc747ee6464e4b873248ec0243-1236276804.869800-1509024489</value>
+    <value type="QString" >XDG_SESSION_COOKIE=44c9c4dc747ee6464e4b873248ec0243-1236798015.518253-1202202511</value>
     <value type="QString" >XSESSION=Xfce4</value>
-    <value type="QString" >_=/home/olek/bin/qtcreator</value>
+    <value type="QString" >_=./qtcreator.bin</value>
    </valuelist>
    <valuelist key="abstractProcess.arguments" type="QVariantList" >
     <value type="QString" >debug</value>
@@ -173,7 +199,7 @@
    </valuelist>
    <value key="abstractProcess.command" type="QString" >/usr/bin/make</value>
    <value key="abstractProcess.enabled" type="bool" >true</value>
-   <value key="abstractProcess.workingDirectory" type="QString" >/media/sda3/Prefs/Projects/Sphere</value>
+   <value key="abstractProcess.workingDirectory" type="QString" >/media/sda3/Prefs/Projects/Trans/qcontrol/Sphere</value>
    <valuelist key="makeargs" type="QVariantList" >
     <value type="QString" >debug</value>
    </valuelist>
