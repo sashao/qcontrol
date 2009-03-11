@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += script svg xml
+#QT += script svg xml
 
 TARGET = Sphere
 TEMPLATE = app
