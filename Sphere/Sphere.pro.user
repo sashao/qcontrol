@@ -1,0 +1,278 @@
+<!DOCTYPE QtCreatorProject>
+<qtcreator>
+ <data>
+  <variable>RunConfiguration0-CommandLineArguments</variable>
+  <valuelist type="QVariantList" />
+ </data>
+ <data>
+  <variable>RunConfiguration0-ProFile</variable>
+  <value type="QString" >/media/sda3/Prefs/Projects/Sphere/Sphere.pro</value>
+ </data>
+ <data>
+  <variable>RunConfiguration0-RunConfiguration.name</variable>
+  <value type="QString" >Sphere</value>
+ </data>
+ <data>
+  <variable>RunConfiguration0-UserSetName</variable>
+  <value type="bool" >false</value>
+ </data>
+ <data>
+  <variable>RunConfiguration0-type</variable>
+  <value type="QString" >Qt4ProjectManager.Qt4RunConfiguration</value>
+ </data>
+ <data>
+  <variable>activeRunConfiguration</variable>
+  <value type="int" >0</value>
+ </data>
+ <data>
+  <variable>activebuildconfiguration</variable>
+  <value type="QString" >Debug</value>
+ </data>
+ <data>
+  <variable>buildConfiguration-Debug</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >Debug</value>
+   <value key="QtVersionId" type="int" >0</value>
+   <value key="buildDirectory" type="QString" >/media/sda3/Prefs/Projects/Sphere</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildConfiguration-Release</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >Release</value>
+   <value key="QtVersionId" type="int" >0</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-Debug-buildstep0</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >Debug</value>
+   <valuelist key="abstractProcess.Environment" type="QVariantList" >
+    <value type="QString" >CLASSPATH=.</value>
+    <value type="QString" >CONFIG_PROTECT_MASK=/etc/gentoo-release /etc/env.d/java/ /etc/udev/rules.d /etc/fonts/fonts.conf /etc/gconf /etc/terminfo /etc/ca-certificates.conf /etc/revdep-rebuild</value>
+    <value type="QString" >CVS_RSH=ssh</value>
+    <value type="QString" >DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-hbXJCOkHvV,guid=965f147109da3e503fe2ae4949b01645</value>
+    <value type="QString" >DESKTOP_SESSION=gnome</value>
+    <value type="QString" >DESKTOP_STARTUP_ID=</value>
+    <value type="QString" >DISPLAY=:0.0</value>
+    <value type="QString" >EDITOR=/bin/nano</value>
+    <value type="QString" >GCC_SPECS=</value>
+    <value type="QString" >GDK_USE_XFT=1</value>
+    <value type="QString" >GDMSESSION=gnome</value>
+    <value type="QString" >GDM_LANG=uk_UA.UTF-8</value>
+    <value type="QString" >GDM_XSERVER_LOCATION=local</value>
+    <value type="QString" >GNOME_DESKTOP_SESSION_ID=Default</value>
+    <value type="QString" >GNOME_KEYRING_SOCKET=/tmp/keyring-xD7PkW/socket</value>
+    <value type="QString" >GPG_AGENT_INFO=/tmp/seahorse-q7TWUj/S.gpg-agent:5921:1</value>
+    <value type="QString" >GTK_MODULES=gnomebreakpad</value>
+    <value type="QString" >GTK_RC_FILES=/etc/gtk/gtkrc:/home/olek/.gtkrc-1.2-gnome2</value>
+    <value type="QString" >HOME=/home/olek</value>
+    <value type="QString" >INFOPATH=/usr/share/info:/usr/share/binutils-data/x86_64-pc-linux-gnu/2.19/info:/usr/share/gcc-data/x86_64-pc-linux-gnu/4.3.2/info</value>
+    <value type="QString" >JAVAC=/etc/java-config-2/current-system-vm/bin/javac</value>
+    <value type="QString" >JAVA_HOME=/etc/java-config-2/current-system-vm</value>
+    <value type="QString" >JDK_HOME=/etc/java-config-2/current-system-vm</value>
+    <value type="QString" >LANG=uk_UA.UTF-8</value>
+    <value type="QString" >LESS=-R -M --shift 5</value>
+    <value type="QString" >LESSOPEN=|lesspipe.sh %s</value>
+    <value type="QString" >LOGNAME=olek</value>
+    <value type="QString" >MANPATH=/etc/java-config-2/current-system-vm/man:/usr/local/share/man:/usr/share/man:/usr/share/binutils-data/x86_64-pc-linux-gnu/2.19/man:/usr/share/gcc-data/x86_64-pc-linux-gnu/4.3.2/man:/etc/java-config/system-vm/man/:/usr/qt/3/doc/man</value>
+    <value type="QString" >OPENGL_PROFILE=nvidia</value>
+    <value type="QString" >ORBIT_SOCKETDIR=/tmp/orbit-olek</value>
+    <value type="QString" >PAGER=/usr/bin/less</value>
+    <value type="QString" >PATH=/usr/bin:/home/olek/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:/opt/bin:/usr/x86_64-pc-linux-gnu/gcc-bin/4.3.2:/usr/qt/3/bin:/usr/games/bin</value>
+    <value type="QString" >PKG_CONFIG_PATH=/usr/qt/3/lib64/pkgconfig</value>
+    <value type="QString" >PWD=/home/olek</value>
+    <value type="QString" >QMAKESPEC=linux-g++</value>
+    <value type="QString" >QTDIR=/usr</value>
+    <value type="QString" >SESSION_MANAGER=local/Gentoo-laptop:@/tmp/.ICE-unix/5891,unix/Gentoo-laptop:/tmp/.ICE-unix/5891</value>
+    <value type="QString" >SHELL=/bin/bash</value>
+    <value type="QString" >SHLVL=1</value>
+    <value type="QString" >SSH_AGENT_PID=5911</value>
+    <value type="QString" >SSH_AUTH_SOCK=/tmp/keyring-xD7PkW/ssh</value>
+    <value type="QString" >USER=olek</value>
+    <value type="QString" >USERNAME=olek</value>
+    <value type="QString" >WINDOWPATH=7</value>
+    <value type="QString" >XAUTHORITY=/home/olek/.Xauthority</value>
+    <value type="QString" >XDG_DATA_DIRS=/usr/local/share/:/usr/share/:/usr/share/gdm/</value>
+    <value type="QString" >XDG_SESSION_COOKIE=44c9c4dc747ee6464e4b873248ec0243-1236276804.869800-1509024489</value>
+    <value type="QString" >XSESSION=Xfce4</value>
+    <value type="QString" >_=/home/olek/bin/qtcreator</value>
+   </valuelist>
+   <valuelist key="abstractProcess.arguments" type="QVariantList" >
+    <value type="QString" >/media/sda3/Prefs/Projects/Sphere/Sphere.pro</value>
+    <value type="QString" >-spec</value>
+    <value type="QString" >/usr/share/qt4/mkspecs/linux-g++-64</value>
+    <value type="QString" >-r</value>
+    <value type="QString" >CONFIG+=debug_and_release</value>
+    <value type="QString" >CONFIG+=debug</value>
+   </valuelist>
+   <value key="abstractProcess.command" type="QString" >/usr/bin/qmake</value>
+   <value key="abstractProcess.enabled" type="bool" >false</value>
+   <value key="abstractProcess.workingDirectory" type="QString" >/media/sda3/Prefs/Projects/Sphere</value>
+   <value key="buildConfiguration" type="int" >10</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-Debug-buildstep1</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >Debug</value>
+   <valuelist key="abstractProcess.Environment" type="QVariantList" >
+    <value type="QString" >CLASSPATH=.</value>
+    <value type="QString" >CONFIG_PROTECT_MASK=/etc/gentoo-release /etc/env.d/java/ /etc/udev/rules.d /etc/fonts/fonts.conf /etc/gconf /etc/terminfo /etc/ca-certificates.conf /etc/revdep-rebuild</value>
+    <value type="QString" >CVS_RSH=ssh</value>
+    <value type="QString" >DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-hbXJCOkHvV,guid=965f147109da3e503fe2ae4949b01645</value>
+    <value type="QString" >DESKTOP_SESSION=gnome</value>
+    <value type="QString" >DESKTOP_STARTUP_ID=</value>
+    <value type="QString" >DISPLAY=:0.0</value>
+    <value type="QString" >EDITOR=/bin/nano</value>
+    <value type="QString" >GCC_SPECS=</value>
+    <value type="QString" >GDK_USE_XFT=1</value>
+    <value type="QString" >GDMSESSION=gnome</value>
+    <value type="QString" >GDM_LANG=uk_UA.UTF-8</value>
+    <value type="QString" >GDM_XSERVER_LOCATION=local</value>
+    <value type="QString" >GNOME_DESKTOP_SESSION_ID=Default</value>
+    <value type="QString" >GNOME_KEYRING_SOCKET=/tmp/keyring-xD7PkW/socket</value>
+    <value type="QString" >GPG_AGENT_INFO=/tmp/seahorse-q7TWUj/S.gpg-agent:5921:1</value>
+    <value type="QString" >GTK_MODULES=gnomebreakpad</value>
+    <value type="QString" >GTK_RC_FILES=/etc/gtk/gtkrc:/home/olek/.gtkrc-1.2-gnome2</value>
+    <value type="QString" >HOME=/home/olek</value>
+    <value type="QString" >INFOPATH=/usr/share/info:/usr/share/binutils-data/x86_64-pc-linux-gnu/2.19/info:/usr/share/gcc-data/x86_64-pc-linux-gnu/4.3.2/info</value>
+    <value type="QString" >JAVAC=/etc/java-config-2/current-system-vm/bin/javac</value>
+    <value type="QString" >JAVA_HOME=/etc/java-config-2/current-system-vm</value>
+    <value type="QString" >JDK_HOME=/etc/java-config-2/current-system-vm</value>
+    <value type="QString" >LANG=uk_UA.UTF-8</value>
+    <value type="QString" >LESS=-R -M --shift 5</value>
+    <value type="QString" >LESSOPEN=|lesspipe.sh %s</value>
+    <value type="QString" >LOGNAME=olek</value>
+    <value type="QString" >MANPATH=/etc/java-config-2/current-system-vm/man:/usr/local/share/man:/usr/share/man:/usr/share/binutils-data/x86_64-pc-linux-gnu/2.19/man:/usr/share/gcc-data/x86_64-pc-linux-gnu/4.3.2/man:/etc/java-config/system-vm/man/:/usr/qt/3/doc/man</value>
+    <value type="QString" >OPENGL_PROFILE=nvidia</value>
+    <value type="QString" >ORBIT_SOCKETDIR=/tmp/orbit-olek</value>
+    <value type="QString" >PAGER=/usr/bin/less</value>
+    <value type="QString" >PATH=/usr/bin:/home/olek/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:/opt/bin:/usr/x86_64-pc-linux-gnu/gcc-bin/4.3.2:/usr/qt/3/bin:/usr/games/bin</value>
+    <value type="QString" >PKG_CONFIG_PATH=/usr/qt/3/lib64/pkgconfig</value>
+    <value type="QString" >PWD=/home/olek</value>
+    <value type="QString" >QMAKESPEC=linux-g++</value>
+    <value type="QString" >QTDIR=/usr</value>
+    <value type="QString" >SESSION_MANAGER=local/Gentoo-laptop:@/tmp/.ICE-unix/5891,unix/Gentoo-laptop:/tmp/.ICE-unix/5891</value>
+    <value type="QString" >SHELL=/bin/bash</value>
+    <value type="QString" >SHLVL=1</value>
+    <value type="QString" >SSH_AGENT_PID=5911</value>
+    <value type="QString" >SSH_AUTH_SOCK=/tmp/keyring-xD7PkW/ssh</value>
+    <value type="QString" >USER=olek</value>
+    <value type="QString" >USERNAME=olek</value>
+    <value type="QString" >WINDOWPATH=7</value>
+    <value type="QString" >XAUTHORITY=/home/olek/.Xauthority</value>
+    <value type="QString" >XDG_DATA_DIRS=/usr/local/share/:/usr/share/:/usr/share/gdm/</value>
+    <value type="QString" >XDG_SESSION_COOKIE=44c9c4dc747ee6464e4b873248ec0243-1236276804.869800-1509024489</value>
+    <value type="QString" >XSESSION=Xfce4</value>
+    <value type="QString" >_=/home/olek/bin/qtcreator</value>
+   </valuelist>
+   <valuelist key="abstractProcess.arguments" type="QVariantList" >
+    <value type="QString" >debug</value>
+    <value type="QString" >-w</value>
+   </valuelist>
+   <value key="abstractProcess.command" type="QString" >/usr/bin/make</value>
+   <value key="abstractProcess.enabled" type="bool" >true</value>
+   <value key="abstractProcess.workingDirectory" type="QString" >/media/sda3/Prefs/Projects/Sphere</value>
+   <valuelist key="makeargs" type="QVariantList" >
+    <value type="QString" >debug</value>
+   </valuelist>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-Debug-cleanstep0</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >Debug</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-Debug-cleanstep1</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >Debug</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-Release-buildstep0</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >Release</value>
+   <value key="buildConfiguration" type="int" >8</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-Release-buildstep1</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >Release</value>
+   <valuelist key="makeargs" type="QVariantList" >
+    <value type="QString" >release</value>
+   </valuelist>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-Release-cleanstep0</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >Release</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-Release-cleanstep1</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >Release</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfigurations</variable>
+  <valuelist type="QVariantList" >
+   <value type="QString" >Debug</value>
+   <value type="QString" >Release</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>buildstep0</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" ></value>
+   <value key="mkspec" type="QString" ></value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildstep1</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" ></value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildsteps</variable>
+  <valuelist type="QVariantList" >
+   <value type="QString" >trolltech.qt4projectmanager.qmake</value>
+   <value type="QString" >trolltech.qt4projectmanager.make</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>cleanstep0</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" ></value>
+   <value key="clean" type="bool" >true</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>cleanstep1</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" ></value>
+   <value key="clean" type="bool" >true</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>cleansteps</variable>
+  <valuelist type="QVariantList" >
+   <value type="QString" >trolltech.qt4projectmanager.gdbmaros</value>
+   <value type="QString" >trolltech.qt4projectmanager.make</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>defaultFileEncoding</variable>
+  <value type="QByteArray" >System</value>
+ </data>
+ <data>
+  <variable>project</variable>
+  <valuemap type="QVariantMap" />
+ </data>
+</qtcreator>
