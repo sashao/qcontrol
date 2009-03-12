@@ -31,6 +31,7 @@ protected:
 	void paintEvent ( QPaintEvent * event );
 	void resizeEvent (QResizeEvent * event );
 	void timerEvent ( QTimerEvent * event );
+	void mouseMoveEvent ( QMouseEvent * event );
 };
 
 #endif // WIDGET_H

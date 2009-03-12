@@ -16,14 +16,14 @@ Widget::Widget(QWidget *parent)
 	angle.second = 0;
 	myID = -1;
 
-	const int num = 131;
+	const int num = 41;
 	for (int i = 0; i<num; ++i)
 	{
 		items.push_back(QPointF(pi2 * qrand()/RAND_MAX, M_PI * qrand()/RAND_MAX));
 //		items.push_back(QPointF(pi2 * qrand()/RAND_MAX, pi2 * 0.63 ));
 //		qDebug()<< pi2 * qrand()/RAND_MAX<< " / "<< pi2*0.1;
 	}
-
+	setMouseTracking(true);
 	myID = startTimer(40);
 }
 
@@ -63,8 +63,12 @@ void Widget::timerEvent ( QTimerEvent * event )
 {
 	if (event->timerId() == myID)
 	{
-		angle.first = angle.first + M_PI*0.03;
-		angle.second = angle.second + M_PI*.009;
+//		qde
+		double dx = ((mouseAt.x()-center.x()))*0.001;
+		double dy = ((mouseAt.y()-center.y()))*0.001;
+		qDebug()<< dy;
+		angle.first = angle.first - dy;
+		angle.second = angle.second + dx;
 
 		SetXYZRotationMatrix(angle.first, angle.second, 0);
 		event->accept();
@@ -81,15 +85,7 @@ void Widget::drawItem(QPainter * painter, QPair<QPoint, double> param)
 
 QPair<QPoint, double> Widget::pointFromAngle(QPair<double, double> angle) const
 {
-//	QPoint pos(sin(angle.second)*radius*sin(angle.first), cos(angle.first)*radius);
-	const double x = sin(angle.first)*sin(angle.second);
-	const double y = cos(angle.first);
-	const double z = sin(angle.first)*cos(angle.second);
-
-	const double x_ = x;
-	const double y_ = y*cos(angle.first) + z*sin(angle.first);
-	const double z_ = z*cos(angle.first) - y*sin(angle.first);
-
+	// Many thanks to xplanet
 	const double X0 = cos(angle.first) * cos(angle.second);
 	const double Y0 = cos(angle.first) * sin(angle.second);
 	const double Z0 = sin(angle.first);
@@ -110,7 +106,7 @@ QPair<QPoint, double> Widget::pointFromAngle(QPair<double, double> angle) const
 	const double rad = Z1;//z_;
 //	if (rad > 0) qDebug(">>>>");
 //	else qDebug("<<<<");
-	return QPair<QPoint, double>(pos+center, (rad+1)/2);
+	return QPair<QPoint, double>(pos+center, (rad+2)/2);
 }
 
 
@@ -146,7 +142,11 @@ Widget::SetXYZRotationMatrix(const double angle_x,
 
 }
 
-
+void Widget::mouseMoveEvent ( QMouseEvent * event )
+{
+	mouseAt = event->pos();
+//	qDebug()<<"moved "<< mouseAt;
+}
 
 
 
