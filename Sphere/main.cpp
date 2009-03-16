@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
     Widget w;
     w.show();
     
-    qDebug()<<QCoreApplication::instance();
-    qDebug("sph === %d",QCoreApplication::instance());
+//    qDebug()<<QCoreApplication::instance();
+//    qDebug("sph === %d",QCoreApplication::instance());
     return a.exec();
 }

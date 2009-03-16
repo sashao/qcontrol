@@ -11,17 +11,18 @@ public:
     Widget(QWidget *parent = 0);
     ~Widget();
 private:
-	virtual void drawItem(QPainter * painter, QPair<QPoint, double> param);
-	QPair<QPoint, double> pointFromAngle(QPair<double, double> angle) const;
-	void SetXYZRotationMatrix(const double angle_x,
+	virtual void drawItem(QPainter * painter, QPair<QPointF, double> param);
+	QPair<QPointF, double> pointFromAngle(QPair<double, double> angle) const;
+	void setRotationMatrix(const double angle_x,
 							  const double angle_y,
 							  const double angle_z);
 
 	int radius;
 	int myID;
 	double rotXYZ_[3][3];
-	QPoint center;
-	QPoint mouseAt;
+	QPointF center;
+	QPointF mouseAt;
+	uint accelerate_time, refresh_rate;
 
 	QPair<double, double> angle; //radians
 
